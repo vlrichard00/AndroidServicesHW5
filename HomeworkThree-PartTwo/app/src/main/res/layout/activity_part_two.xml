@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_part_two"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.astoldbyvee.homeworkthree_parttwo.PartTwo">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp">
+
+        <Button
+            android:text="ProfilePic"
+            android:layout_width="103dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button2"
+            android:layout_weight="0.07"
+            style="@style/Widget.AppCompat.Button.Border.Colored" />
+
+        <TextView
+            android:text="Name"
+            android:id="@+id/textView3"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:layout_width="150dp"
+            android:layout_weight="0.07"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:text="City "
+            android:layout_width="107dp"
+            android:id="@+id/textView4"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:layout_height="50dp" />
+
+        <TextView
+            android:text="State"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/textView7"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+        <TextView
+            android:text="Zip "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView8"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+        <Button
+            android:text="Submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button3"
+            android:layout_weight="0.07"
+            style="@style/Widget.AppCompat.Button.Small" />
+
+    </LinearLayout>
+</RelativeLayout>
